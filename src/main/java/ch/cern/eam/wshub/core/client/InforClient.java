@@ -381,6 +381,10 @@ public class InforClient implements Serializable {
         return laborBookingService;
     }
 
+    public WorkOrderScheduleService getWorkOrderScheduleService() {
+        return workOrderScheduleService;
+    }
+
     public WorkOrderMiscService getWorkOrderMiscService() {
         return workOrderMiscService;
     }
